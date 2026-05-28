@@ -13,13 +13,13 @@ package main
 // }
 
 // func main() {
-// 	// var (
-// 	// 	i   int     = 1
-// 	// 	f64 float64 = 1.2
-// 	// 	s   string  = "test"
-// 	// 	t   bool    = true
-// 	// 	f   bool    = false
-// 	// )
-// 	// fmt.Println(i, f64, s, t, f)
+// 	var (
+// 		i   int     = 1
+// 		f64 float64 = 1.2
+// 		s   string  = "test"
+// 		t   bool    = true
+// 		f   bool    = false
+// 	)
+// 	fmt.Println(i, f64, s, t, f)
 // 	foo()
 // }
