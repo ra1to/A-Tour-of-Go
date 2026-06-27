@@ -1,23 +1,23 @@
 package main
 
-// import (
-// 	"fmt"
-// 	"strconv"
-// )
+import (
+	"fmt"
+	"strconv"
+)
 
-// func main() {
-// 	var x int = 1
-// 	xx := float64(x)
-// 	fmt.Printf("%T %v %f", xx, xx, xx)
+func main() {
+	var x int = 1
+	xx := float64(x)
+	fmt.Printf("%T %v %f", xx, xx, xx)
 
-// 	var y float64 = 1.2
-// 	yy := int(y)
-// 	fmt.Printf("%T %v %d\n", yy, yy, yy)
+	var y float64 = 1.2
+	yy := int(y)
+	fmt.Printf("%T %v %d\n", yy, yy, yy)
 
-// 	var s string = "14"
-// 	i, _ := strconv.Atoi(s)
-// 	fmt.Printf("%T %v", i, i)
+	var s string = "14"
+	i, _ := strconv.Atoi(s)
+	fmt.Printf("%T %v\n", i, i)
 
-// 	h := "Hello World"
-// 	fmt.Println(string(h[0]))
-// }
+	h := "Hello World"
+	fmt.Println(string(h[0]))
+}
